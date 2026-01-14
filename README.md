@@ -2,9 +2,13 @@
 
 Section 0: Candidate Details
 Full Name – Iqra Afreen
+
 Email Address – mirzaiqra2022@gmail.com
+
 College  – Deewan VS Institute of Engineering and Technology
+
 GitHub Profile URL – https://github.com/CodeCraftIqra
+
 Internship Batch / Group Name – Mern and Pern fullstack Internship
 
 Section 1: Git & Github
