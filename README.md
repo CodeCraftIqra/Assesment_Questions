@@ -56,16 +56,25 @@ TRUNCATE: Removes all rows, faster, no rollback.
 Process of organizing data to reduce redundancy and improve data integrity.
 
 6. JOIN types
+   
 INNER JOIN: Matching records from both tables.
+
 LEFT JOIN: All records from left table + matched right.
+
 RIGHT JOIN: All records from right table + matched left.
 
-7. SQL Queries
+8. SQL Queries
+   
 INSERT INTO users VALUES (1, 'John');
+
 SELECT * FROM users;
+
 UPDATE users SET name='Alex' WHERE id=1;
+
 DELETE FROM users WHERE id=1;
+
 SELECT * FROM orders o INNER JOIN users u ON o.user_id = u.id;
+
 
 Section 3: React Fundamentals
 1. What is React?
@@ -79,15 +88,17 @@ Props: Immutable, passed from parent to child.
 Hooks are functions that allow functional components to use state and lifecycle features (e.g., useState, useEffect).
 
 4. useEffect example
+   
 useEffect(() => {
   fetchData();
 }, []);
+
 Runs side effects like API calls after render.
 
-5. Lifting state up
+6. Lifting state up
 Moving shared state to the nearest common parent to share data between components.
 
-6. React practical GitHub link
+7. React practical GitHub link
 (https://github.com/CodeCraftIqra/Weather-app)
 
 Section 4: TypeScript Basics
